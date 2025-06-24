@@ -63,3 +63,33 @@ h5 {
 .FilterBtn {
     background-color: #008CFF;
 }
+
+.bottom-bar {
+    position: fixed;
+    bottom: 15px; 
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #ffffff; 
+    border-radius: 20px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+    z-index: 1030; 
+    width: 90%; 
+    max-width: 800px; 
+    padding: 8px 0 !important; 
+}
+
+.homebtn {
+    color: rgb(0, 94, 255);
+}
+
+.searchbtn {
+    color: rgb(77, 77, 77);
+}
+
+.translatebtn {
+    color: rgb(77, 77, 77);
+}
+
+.mapbtn {
+    color: rgb(77, 77, 77);
+}
