@@ -1,0 +1,65 @@
+/* --- Font Faces --- */
+@font-face {
+    font-family: 'nats';
+    src: url(./assets/fonts/NATS-Regular.ttf);
+}
+.font-nats {
+    font-family: 'nats';
+    font-size: 23px;
+}
+
+@font-face {
+    font-family: 'ubuntu';
+    src: url(./assets/fonts/Ubuntu-Regular.ttf);
+}
+.font-ubuntu {
+    font-family: 'ubuntu';
+    font-size: 23px;
+}
+
+h1 {
+    font-family: ubuntu !important;
+}
+/* --- ---------- --- */
+
+/* #topBar {
+    overflow: hidden;
+    background-color: rgba(0, 183, 255, 0) !important; 
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+    padding-left: 0%;
+    margin-left: 0%;
+    padding-right: 0;
+} */
+
+#topBar {
+    background-color: rgba(0, 0, 0, 0);
+    transition: background-color 0.3s ease; /* Smooth fade :3 */
+}
+
+#topBar.scrolled {
+    background-color: rgba(0, 140, 255, 1);
+}
+
+
+.custom-blue {
+    background-color: #008CFF !important;
+}
+
+.far, .fas{
+    font-size: 25px !important;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+h5 {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.FilterBtn {
+    background-color: #008CFF;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./lib/bootstrap/css/bootstrap.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+</head>
+<body>
+    <div class="fixed" style="margin-bottom: 70px;">
+        <div class="container-fluid d-flex justify-content-between bg-primary" id="topBar">
+            <a class="navbar-brand d-flex">
+                <img src="./assets/userimage.jpg" alt="User Image"
+                    width="30px" height="30px"
+                    class="flex-shrink-0 align-self-center rounded-circle shadow me-2" id="userimage">
+                <span class="font-nats" id="username">Hello Guest!</span>
+            </a>
+            <a class="navbar-brand">
+                <i class="far fa-bell fs-3"></i>
+            </a>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-12 searchbox-wrapper d-flex justify-content-between" style="margin-left:16px;">
+            <form>
+                <div class="form-group">
+                    <input type="text" class="form-control shadow px-4 py-3" id="SearchBox"
+                        aria-describedby="UserSearchBox" placeholder="Where do you want to go today?">
+                </div>
+            </form>
+            
+            <button class="btn btn-primary buttonprimary shadow ">
+                <i class="fas fa-search"></i>
+                <!-- <img src="./assets/icons/Search.svg" alt="Search Button" width="30" height="30" class="d-inline-block align-text-top rounded-circle"> -->
+            </button>
+        </div>
+    </div>
+
+    <script src="./lib/bootstrap/js/bootstrap.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
+
