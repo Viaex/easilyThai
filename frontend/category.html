@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="./lib/bootstrap/css/bootstrap.css"> 
+  <link rel="stylesheet" href="./lib/bootstrap/css/bootstrap-utilities.css"> 
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.7/css/bootstrap.min.css">  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+  <link rel="stylesheet" href="./style.css">
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Popular Places</title>
+</head>
+<body>
+
+<div class="d-flex p-3 position-fixed w-100" id="topbarcategory" style="top: 0; z-index: 999;">
+    <i width="35px" height="35px"
+        class="flex-shrink-0 fa-solid fa-arrow-left pt-2"
+        type="button" id="returnbtn" onclick="window.location.href = './home.html'"> 
+    </i>
+    <span class="font-nats fs-3 ms-2" id="TopbarTopic">Popular Places</span>
+</div>
+
+
+
+
+
+
+
+<span style="padding-bottom: 100px;"></span>
+
+<!-- bottom bar -->
+
+<div class="fixed-bottom text-white text-center py-0 bottom-bar">
+  <div class="container d-flex justify-content-center">
+    <div class="d-flex justify-content-between w-100 flex-nowrap">
+
+      <div class="cursor-pointer d-flex flex-column align-items-center flex-fill">
+        <div class="d-flex justify-content-center align-items-center" 
+            style="width: 20px; height: 35px; background-color: #007bff00;">
+          <i class="fa-solid fa-house homebtn" style="font-size: 25px;"></i>
+        </div>
+        <span class="font-nats homebtn" style="font-size: 15px;">Home</span>
+      </div>
+
+      <div class="cursor-pointer d-flex flex-column align-items-center flex-fill">
+        <div class="d-flex justify-content-center align-items-center" 
+            style="width: 20px; height: 35px; background-color: #007bff00;">
+          <i class="fa-solid fa-magnifying-glass searchbtn" style="font-size: 25px;"></i>
+        </div>
+        <span class="font-nats searchbtn" style="font-size: 15px;">Search</span>
+      </div>
+
+      <div class="cursor-pointer d-flex flex-column align-items-center flex-fill">
+        <div class="d-flex justify-content-center align-items-center" 
+            style="width: 20px; height: 35px; background-color: #007bff00;">
+          <i class="fa-solid fa-language translatebtn" style="font-size: 25px;"></i>
+        </div>
+        <span class="font-nats translatebtn" style="font-size: 15px;">Translate</span>
+      </div>
+
+      <div class="cursor-pointer d-flex flex-column align-items-center flex-fill">
+        <div class="d-flex justify-content-center align-items-center" 
+            style="width: 20px; height: 35px; background-color: #007bff00;">
+          <i class="fa-solid fa-map mapbtn" style="font-size: 25px;"></i>
+        </div>
+        <span class="font-nats mapbtn" style="font-size: 15px;">Navigation</span>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.11.8/umd/popper.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.7/js/bootstrap.min.js"></script>
+  <script src="./script.js"></script>
+  <!-- <script src="./lib/bootstrap/js/bootstrap.js"></script> -->
+</body>
+</html>

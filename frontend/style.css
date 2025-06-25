@@ -38,9 +38,10 @@ h1 {
     transition: background-color 0.3s ease; /* Smooth fade :3 */
 }
 
-#topBar.scrolled {
+#topBar.scrolled, #topbarcategory {
     background-color: rgba(0, 140, 255, 1);
 }
+
 
 
 .custom-blue {
